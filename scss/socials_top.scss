@@ -1,0 +1,88 @@
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px #00000061;
+  height: 105px;
+  padding: 0 130px;
+
+  .socials-text {
+    h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    p {
+      width: 400px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #86878b;
+    }
+  }
+  .socials-logos {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+    .fb {
+      background: url("../photos/fb.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .fb:hover {
+      transform: translateY(-5px);
+    }
+    .ig {
+      background: url("../photos/ig.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .ig:hover {
+      transform: translateY(-5px);
+    }
+    .twitter {
+      background: url("../photos/twitter.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .twitter:hover {
+      transform: translateY(-5px);
+    }
+    .pinterest {
+      background: url("../photos/pinterest.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .pinterest:hover {
+      transform: translateY(-5px);
+    }
+    .wifi {
+      background: url("../photos/wifi.png");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .wifi:hover {
+      transform: translateY(-5px);
+    }
+  }
+}

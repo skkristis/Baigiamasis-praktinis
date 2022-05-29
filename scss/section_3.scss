@@ -1,0 +1,77 @@
+.third-panel {
+  background: #1c1c1c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 120px;
+  height: 600px;
+
+  .logo {
+    background-image: url("../photos/logo.svg");
+    height: 170px;
+    width: 390px;
+    background-repeat: no-repeat;
+
+    // margin-right: 20px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 420px;
+    width: 470px;
+    font-size: 14px;
+    h3 {
+      height: 80px;
+      width: 315px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    p {
+      width: 450px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .divider {
+      background-image: url("../photos/divider-orange.svg");
+      width: 200px;
+      height: 2px;
+    }
+    .container {
+      section {
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        .bg {
+          background: #e27866;
+          border-radius: 50px;
+          height: 50px;
+          width: 50px;
+          margin-right: 20px;
+        }
+        .eye {
+          background: url("../photos/eye.svg");
+          height: 50px;
+          width: 50px;
+          background-repeat: no-repeat;
+          background-size: 25px;
+          background-position: center;
+          border-radius: 50px;
+        }
+        .chat-logo {
+          background: url("../photos/comment.svg");
+          height: 50px;
+          width: 50px;
+          background-repeat: no-repeat;
+          background-size: 25px;
+          background-position: center;
+          border-radius: 50px;
+        }
+      }
+      p {
+        width: 400px;
+      }
+    }
+  }
+}

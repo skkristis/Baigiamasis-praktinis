@@ -1,0 +1,60 @@
+footer {
+  line-height: 125px;
+
+  background: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .socials-logos {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    .fb {
+      background: url("../photos/footer_socials/fb.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+
+    .ig {
+      background: url("../photos/footer_socials/ig.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    .twitter {
+      background: url("../photos/footer_socials/twitter.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    .pinterest {
+      background: url("../photos/footer_socials/pinterest.svg");
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    .wifi {
+      background: url("../photos/footer_socials/wifi_black.png");
+      background-size: contain;
+      width: 35px;
+      height: 35px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+  }
+  .copyright {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 18px;
+  }
+}

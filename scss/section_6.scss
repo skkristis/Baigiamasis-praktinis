@@ -1,0 +1,84 @@
+.reviews {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+  .divider {
+    background-image: url("../photos/divider-orange-small.svg");
+    width: 64px;
+    height: 2px;
+    color: #6696e2;
+    background: #6696e2;
+    margin-bottom: 58px;
+  }
+
+  .swiper {
+    width: 100vw;
+    height: 240px;
+  }
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-slide {
+    max-width: 280px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    // align-items: center;
+    font-size: 3em;
+    position: relative;
+    .lorem {
+      background: #6696e2;
+      padding: 20px;
+      font-size: 16px;
+      width: 230px;
+      line-height: 22px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-weight: 300;
+      font-size: 16px;
+    }
+    span {
+      width: 20px;
+      height: 20px;
+      background: #6696e2;
+      position: absolute;
+      bottom: 81px;
+      left: 25px;
+      transform: rotate(45deg);
+    }
+    .profile {
+      display: flex;
+      .pfp {
+        width: 70px;
+        height: 70px;
+        background: url("../photos/avatar.png");
+        background-size: contain;
+        margin-right: 20px;
+      }
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h6 {
+          font-size: 20px;
+          color: #333333;
+          font-weight: 300;
+        }
+        .position {
+          color: #86878b;
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
