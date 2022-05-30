@@ -1,6 +1,6 @@
 "use strict";
 
-// window.scrollTo(0, 0);
+window.scrollTo(0, 0);
 
 var home = document.getElementById("home");
 var features = document.getElementById("features");
