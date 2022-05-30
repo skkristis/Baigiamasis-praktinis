@@ -1,0 +1,32 @@
+@mixin logo-sizing {
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+@mixin section3_logo {
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  border-radius: 50px;
+}
+@mixin awesome_logo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #e27866;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+@mixin socials_top {
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
+}

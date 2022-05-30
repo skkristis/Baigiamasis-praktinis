@@ -41,10 +41,36 @@ nav {
     line-height: 70px;
     // width: 100%;
     border-bottom: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
   }
   li:hover {
     opacity: 1;
     border-bottom: 2px solid #e27866;
     // width: 150%;
+  }
+  i {
+    text-decoration: none;
+    display: none !important;
+    color: #e27866;
+    font-size: 2em;
+    transition: 0.3s;
+    line-height: 72px !important;
+    cursor: pointer;
+  }
+  li::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e27866;
+    content: "";
+    transform: translateX(-105%);
+
+    transition: transform 0.4s;
+  }
+  li:hover::before {
+    transform: translateX(105%);
   }
 }

@@ -38,39 +38,18 @@
     }
     div:nth-of-type(1) .logo {
       background: url("../photos/award.svg");
-      background-repeat: no-repeat;
-
-      height: 50px;
-      width: 50px;
-      border: 1px solid #e27866;
-      border-radius: 50%;
+      @include awesome_logo();
       background-size: 18px;
-      background-position: center;
-      margin-bottom: 30px;
     }
     div:nth-of-type(2) .logo {
       background: url("../photos/flower.png");
-      // background: #a37169;
-      height: 50px;
-      width: 50px;
-      border: 1px solid #e27866;
-      border-radius: 50%;
-      background-repeat: no-repeat;
+      @include awesome_logo();
       background-size: 29px;
-      background-position: center;
-      margin-bottom: 30px;
     }
     div:nth-of-type(3) .logo {
       background: url("../photos/visa.svg");
-      // background: #a37169;
-      height: 50px;
-      width: 50px;
-      border: 1px solid #e27866;
-      border-radius: 50%;
+      @include awesome_logo();
       background-size: 23px;
-      background-position: center;
-      background-repeat: no-repeat;
-      margin-bottom: 30px;
     }
     h4 {
       color: #333333;

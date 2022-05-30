@@ -26,60 +26,35 @@
 
     .fb {
       background: url("../photos/fb.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      transition: 0.5s;
+      @include socials_top;
     }
     .fb:hover {
       transform: translateY(-5px);
     }
     .ig {
       background: url("../photos/ig.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      transition: 0.5s;
+      @include socials_top;
     }
     .ig:hover {
       transform: translateY(-5px);
     }
     .twitter {
       background: url("../photos/twitter.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      transition: 0.5s;
+      @include socials_top;
     }
     .twitter:hover {
       transform: translateY(-5px);
     }
     .pinterest {
       background: url("../photos/pinterest.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      transition: 0.5s;
+      @include socials_top;
     }
     .pinterest:hover {
       transform: translateY(-5px);
     }
     .wifi {
       background: url("../photos/wifi.png");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      transition: 0.5s;
+      @include socials_top;
     }
     .wifi:hover {
       transform: translateY(-5px);

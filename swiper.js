@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
-  spaceBetween: 20,
+  spaceBetween: 80,
 
   // If we need pagination
   pagination: {
@@ -17,34 +17,12 @@ const swiper = new Swiper(".swiper", {
 
   breakpoints: {
     600: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
+      slidesPerView: 2,
+      slidesPerGroup: 2,
     },
-    1000: {
+    1130: {
       slidesPerView: 3,
-      slidesPerGroup: 3,
-    },
-    1200: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
+      slidesPerGroup: 4,
     },
   },
 });
-
-var swiperSlides = document.getElementsByClassName("swiper-slide");
-
-for (var x of swiperSlides) {
-  x.addEventListener("click", function () {
-    var index = swiper.clickedIndex;
-    var img = document.createElement("img");
-    img.style.display = "none";
-    img.classList.add("extended");
-    img.setAttribute("src", images[index]);
-    document.body.append(img);
-    console.log(img);
-
-    img.addEventListener("click", function () {
-      this.classList.remove("extended");
-    });
-  });
-}

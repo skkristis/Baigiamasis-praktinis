@@ -1,0 +1,24 @@
+.nav {
+  display: none;
+  li {
+    transition: 0.5s;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  li:hover {
+    color: $nav-bg;
+    background: #e27866a1;
+  }
+}
+.rotateZ {
+  transform: rotateZ(-90deg) !important;
+}
+
+.translateX {
+  transform: translateY(0) !important;
+  z-index: 15;
+}
+.display {
+  display: none;
+}

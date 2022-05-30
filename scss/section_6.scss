@@ -18,14 +18,16 @@
     margin-bottom: 58px;
   }
 
-  .swiper {
-    width: 100vw;
-    height: 240px;
-  }
+  .swiper,
   .swiper-wrapper {
-    display: flex;
-    justify-content: center;
+    max-width: 1000px;
+    height: 280px;
   }
+  .swiper-pagination {
+    position: relative;
+    bottom: 20px;
+  }
+
   .swiper-slide {
     max-width: 280px;
     color: white;
@@ -35,6 +37,7 @@
     // align-items: center;
     font-size: 3em;
     position: relative;
+    top: -35px;
     .lorem {
       background: #6696e2;
       padding: 20px;

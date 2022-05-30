@@ -4,7 +4,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="app/css/style.css">
     <title>Cheshire County</title>
 <body>
@@ -20,9 +22,19 @@
       <li id="pricing">Pricing</li>
       <li id="reviews">Reviews</li>
       <li id="contact">Contact</li>
+      <i class="fa-solid fa-bars display"></i>
+
     </ul>
   </div>
 </nav>
+
+<div class="nav">
+  <li id="burger_features">Features</li>
+      <li id="burger_about">About</li>
+      <li id="burger_pricing">Pricing</li>
+      <li id="burger_reviews">Reviews</li>
+      <li id="burger_contact">Contact</li>
+</div>
 
 <div class="city">
   <div class="city-text">
@@ -45,12 +57,12 @@
       <h5>Type of subscription</h5>
       <div class="radio-container">
         <div>
-        <input type="radio" id="MONTHLY" name="MONTHLY" value="MONTHLY"
+        <input type="radio" id="MONTHLY" name="length" value="MONTHLY"
         checked>
         <label for="MONTHLY">MONTHLY</label>
       </div>
       <div>
-        <input type="radio" id="YEARLY" name="YEARLY" value="YEARLY"
+        <input type="radio" id="YEARLY" name="length" value="YEARLY"
         checked>
         <label for="YEARLY">YEARLY</label>
       </div>
@@ -78,20 +90,88 @@
 
 <div class="mountains">
   <div class="boxes">
-    <div><p>REGISTER</p></div>
-    <div><p>APPLY</p></div>
-    <div><p>RECEIVE</p></div>
+    <div id="box1"  class="box"><p>REGISTER</p></div>
+    <div id="box2" class="box"><p>APPLY</p></div>
+    <div id="box3" class="box"><p>RECEIVE</p></div>
   </div>
-  <div class="mountain-text">
-    <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+  <div class="container">
+    <div class="tabs-container">
+      <div id="pirmas"  class="tab-swoosh">
+        <div class="mountain-text">
+       <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+       </div>
+       <div class="boxes-grid">
+         <div><p>Explore</p></div>
+         <div><p>Explore</p></div>
+         <div><p>Explore</p></div>
+       </div>
+     </div>
+     <div id="antras" class="tab-swoosh">
+      <div  class="mountain-text">
+     <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+     </div>
+     <div class="boxes-grid">
+       <div><p>Explore</p></div>
+       <div><p>Explore</p></div>
+       <div><p>Explore</p></div>
+     </div>
+   </div>
+   <div id="trecias" class="tab-swoosh">
+    <div  class="mountain-text">
+   <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+   </div>
+   <div class="boxes-grid">
+     <div><p>Explore</p></div>
+     <div><p>Explore</p></div>
+     <div><p>Explore</p></div>
+   </div>
+  </div>
     </div>
-    <div class="boxes-grid">
-      <div><p>Explore</p></div>
-      <div><p>Explore</p></div>
-      <div><p>Explore</p></div>
-    </div>
+  </div>
+  <!-- <div class="tabs-container">
+    <div id="pirmas"  class="tab-swoosh">
+      <div class="mountain-text">
+     <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+     </div>
+     <div class="boxes-grid">
+       <div><p>Explore</p></div>
+       <div><p>Explore</p></div>
+       <div><p>Explore</p></div>
+     </div>
+   </div>
+   <div id="antras" class="tab-swoosh">
+    <div  class="mountain-text">
+   <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+   </div>
+   <div class="boxes-grid">
+     <div><p>Explore</p></div>
+     <div><p>Explore</p></div>
+     <div><p>Explore</p></div>
+   </div>
+ </div>
+ <div id="trecias" class="tab-swoosh">
+  <div  class="mountain-text">
+ <h3>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h3>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br> <br>
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+ </div>
+ <div class="boxes-grid">
+   <div><p>Explore</p></div>
+   <div><p>Explore</p></div>
+   <div><p>Explore</p></div>
+ </div>
+</div>
+  </div> -->
 </div>
 
 <div class="third-panel">
@@ -147,7 +227,7 @@
   <div class="divider"></div>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   <div class="container">
-    <div class="price-tab">
+    <div id="pirmas" class="price-tab">
       <div class="dark-header">
         <h4>Basic</h4>
       <p class="price"> <span>$</span>0</p>
@@ -163,7 +243,7 @@
         <P>EMAIL SUPPORT</P>
       </div>
     </div>
-    <div class="price-tab">
+    <div id="antras" class="price-tab">
       <div class="dark-header">
         <h4>Proffesional</h4>
       <p class="price"> <span>$</span>19</p>
@@ -179,7 +259,7 @@
         <P>EMAIL SUPPORT</P>
       </div>
     </div>
-    <div class="price-tab">
+    <div id="trecias" class="last-tab price-tab">
       <div class="dark-header">
         <h4>Enterprise</h4>
       <p class="price"> <span>$</span>70</p>
@@ -202,20 +282,22 @@
   <h3>WHAT OUR CUSTOMERS ARE SAYING</h3>
   <div class="divider"></div>
   <!-- Slider main container -->
+  <!-- Slider main container -->
   <div class="swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide">  
+      <div class="swiper-slide">
         <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
         <span></span>
         <div class="profile">
           <div class="pfp"></div>
           <div class="description">
             <h6>Jeremy H.</h6>
-            <p class="position">Manager</p></div>
+            <p class="position">Manager</p>
           </div>
         </div>
+      </div>
       <div class="swiper-slide">
         <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
         <span></span>
@@ -230,17 +312,120 @@
       <div class="swiper-slide">
         <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
         <span></span>
-      <div class="profile">
-        <div class="pfp"></div>
-        <div class="description">
-          <h6>Susan W.</h6>
-          <p class="position">Photographer</p>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Susan W.</h6>
+            <p class="position">Photographer</p>
+          </div>
         </div>
       </div>
-      </div> 
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Jeremy H.</h6>
+            <p class="position">Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>John S.</h6>
+            <p class="position">Freelancer</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Susan W.</h6>
+            <p class="position">Photographer</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Jeremy H.</h6>
+            <p class="position">Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>John S.</h6>
+            <p class="position">Freelancer</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Susan W.</h6>
+            <p class="position">Photographer</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Jeremy H.</h6>
+            <p class="position">Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>John S.</h6>
+            <p class="position">Freelancer</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</p>
+        <span></span>
+        <div class="profile">
+          <div class="pfp"></div>
+          <div class="description">
+            <h6>Susan W.</h6>
+            <p class="position">Photographer</p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
 
 </div>
@@ -255,12 +440,12 @@
       <input type="number" placeholder="Phone number" text-indent="7px" >
       <div class="radio-container">
         <div>
-        <input type="radio" id="PERSONAL" name="PERSONAL" value="PERSONAL"
+        <input type="radio" id="PERSONAL" name="type" value="PERSONAL"
         checked>
         <label for="PERSONAL">PERSONAL</label>
       </div>
       <div>
-        <input type="radio" id="COMPANY" name="COMPANY" value="COMPANY"
+        <input type="radio" id="COMPANY" name="type" value="COMPANY"
         checked>
         <label for="COMPANY">COMPANY</label>
       </div>
@@ -284,7 +469,9 @@
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="swiper.js"></script>
-<script src="script.js"></script>
+<script src="nav.js"></script>
+<script src="tabs.js"></script>
+<script src="burger.js"></script>
 
 </body>
 </html>

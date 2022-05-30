@@ -1,6 +1,5 @@
 footer {
   line-height: 125px;
-
   background: #1c1c1c;
   display: flex;
   align-items: center;
@@ -12,44 +11,24 @@ footer {
     max-width: 550px;
     .fb {
       background: url("../photos/footer_socials/fb.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
+      @include logo-sizing;
     }
 
     .ig {
       background: url("../photos/footer_socials/ig.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
+      @include logo-sizing;
     }
     .twitter {
       background: url("../photos/footer_socials/twitter.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
+      @include logo-sizing;
     }
     .pinterest {
       background: url("../photos/footer_socials/pinterest.svg");
-      background-size: contain;
-      width: 30px;
-      height: 30px;
-      background-repeat: no-repeat;
-      cursor: pointer;
+      @include logo-sizing;
     }
     .wifi {
       background: url("../photos/footer_socials/wifi_black.png");
-      background-size: contain;
-      width: 35px;
-      height: 35px;
-      background-repeat: no-repeat;
-      cursor: pointer;
+      @include logo-sizing;
     }
   }
   .copyright {
