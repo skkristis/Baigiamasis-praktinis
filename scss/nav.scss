@@ -43,6 +43,7 @@ nav {
     border-bottom: 2px solid transparent;
     position: relative;
     overflow: hidden;
+    user-select: none;
   }
   li:hover {
     opacity: 1;
