@@ -11,6 +11,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   z-index: 10;
+  user-select: none;
 
   .logo-container {
     flex: 1;
