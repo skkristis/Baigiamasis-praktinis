@@ -167,6 +167,13 @@
       }
     }
   }
+  .reviews {
+    .swiper,
+    .swiper-wrapper {
+      max-width: 650px;
+      height: 280px;
+    }
+  }
   .contacts {
     height: 700px;
     justify-content: center;

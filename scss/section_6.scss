@@ -20,8 +20,9 @@
 
   .swiper,
   .swiper-wrapper {
-    max-width: 1000px;
+    max-width: 1020px;
     height: 280px;
+    user-select: none;
   }
   .swiper-pagination {
     position: relative;

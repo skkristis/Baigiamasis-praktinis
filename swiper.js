@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: false,
-  spaceBetween: 80,
+  spaceBetween: 100,
 
   // If we need pagination
   pagination: {
